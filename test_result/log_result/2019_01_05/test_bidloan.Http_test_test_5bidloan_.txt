@@ -1,0 +1,456 @@
+[2019-01-05 21:57:52,286] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_01开始执行
+[2019-01-05 21:57:52,365] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/login
+[2019-01-05 21:57:52,366] [INFO] 你的请求方式是:post
+[2019-01-05 21:57:52,366] [INFO] 你的请求参数是:{'mobilephone': '13550848523', 'pwd': '1234567890'}
+[2019-01-05 21:57:52,366] [INFO] 你的预期结果是:10001
+[2019-01-05 21:57:52,366] [INFO] 请求的实际结果是:10001
+[2019-01-05 21:57:52,366] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:57:52,527] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_01结束执行,一共执行0.07124479699999853
+[2019-01-05 21:57:52,528] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_02开始执行
+[2019-01-05 21:57:52,716] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:57:52,716] [INFO] 你的请求方式是:post
+[2019-01-05 21:57:52,716] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': 4825, 'amount': 100}
+[2019-01-05 21:57:52,716] [INFO] 你的预期结果是:10001
+[2019-01-05 21:57:52,716] [INFO] 请求的实际结果是:10001
+[2019-01-05 21:57:52,717] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:57:52,843] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_02结束执行,一共执行0.18793326499999985
+[2019-01-05 21:57:52,844] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_03开始执行
+[2019-01-05 21:57:52,865] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:57:52,865] [INFO] 你的请求方式是:post
+[2019-01-05 21:57:52,865] [INFO] 你的请求参数是:{'memberId': '', 'password': '0123456789', 'loanId': 1234, 'amount': 1000}
+[2019-01-05 21:57:52,865] [INFO] 你的预期结果是:11003
+[2019-01-05 21:57:52,865] [INFO] 请求的实际结果是:11003
+[2019-01-05 21:57:52,865] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:57:52,997] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_03结束执行,一共执行0.02064397800000073
+[2019-01-05 21:57:52,998] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_04开始执行
+[2019-01-05 21:57:53,024] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:57:53,024] [INFO] 你的请求方式是:post
+[2019-01-05 21:57:53,024] [INFO] 你的请求参数是:{'memberId': 123456, 'password': '', 'loanId': 1234, 'amount': 1000}
+[2019-01-05 21:57:53,024] [INFO] 你的预期结果是:11003
+[2019-01-05 21:57:53,024] [INFO] 请求的实际结果是:11003
+[2019-01-05 21:57:53,024] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:57:53,152] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_04结束执行,一共执行0.02538784200000066
+[2019-01-05 21:57:53,154] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_05开始执行
+[2019-01-05 21:57:53,173] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:57:53,173] [INFO] 你的请求方式是:post
+[2019-01-05 21:57:53,173] [INFO] 你的请求参数是:{'memberId': 123456, 'password': '0123456789', 'loanId': '', 'amount': 1000}
+[2019-01-05 21:57:53,173] [INFO] 你的预期结果是:11003
+[2019-01-05 21:57:53,173] [INFO] 请求的实际结果是:11003
+[2019-01-05 21:57:53,174] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:57:53,340] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_05结束执行,一共执行0.019049664000000632
+[2019-01-05 21:57:53,342] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_06开始执行
+[2019-01-05 21:57:53,363] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:57:53,364] [INFO] 你的请求方式是:post
+[2019-01-05 21:57:53,364] [INFO] 你的请求参数是:{'memberId': 123456, 'password': '0123456789', 'loanId': 1234, 'amount': ''}
+[2019-01-05 21:57:53,364] [INFO] 你的预期结果是:11003
+[2019-01-05 21:57:53,364] [INFO] 请求的实际结果是:11003
+[2019-01-05 21:57:53,364] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:57:53,540] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_06结束执行,一共执行0.021068312999998895
+[2019-01-05 21:57:53,542] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_07开始执行
+[2019-01-05 21:57:53,559] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:57:53,559] [INFO] 你的请求方式是:post
+[2019-01-05 21:57:53,559] [INFO] 你的请求参数是:{'memberId': -1, 'password': '0123456789', 'loanId': '1234', 'amount': 1000}
+[2019-01-05 21:57:53,560] [INFO] 你的预期结果是:11004
+[2019-01-05 21:57:53,560] [INFO] 请求的实际结果是:11004
+[2019-01-05 21:57:53,560] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:57:53,713] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_07结束执行,一共执行0.017374034999999566
+[2019-01-05 21:57:53,714] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_08开始执行
+[2019-01-05 21:57:53,742] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:57:53,742] [INFO] 你的请求方式是:post
+[2019-01-05 21:57:53,742] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': -1, 'amount': 1000}
+[2019-01-05 21:57:53,742] [INFO] 你的预期结果是:11005
+[2019-01-05 21:57:53,742] [INFO] 请求的实际结果是:11009
+[2019-01-05 21:57:53,742] [ERROR] 测试用例开始执行的结果是:Fail
+[2019-01-05 21:57:53,888] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_08结束执行,一共执行0.02730109800000058
+[2019-01-05 21:57:53,997] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_09开始执行
+[2019-01-05 21:57:54,027] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:57:54,027] [INFO] 你的请求方式是:post
+[2019-01-05 21:57:54,027] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': 11.2, 'amount': 1000}
+[2019-01-05 21:57:54,027] [INFO] 你的预期结果是:11005
+[2019-01-05 21:57:54,027] [INFO] 请求的实际结果是:11009
+[2019-01-05 21:57:54,027] [ERROR] 测试用例开始执行的结果是:Fail
+[2019-01-05 21:57:54,173] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_09结束执行,一共执行0.029793816999999834
+[2019-01-05 21:57:54,174] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_10开始执行
+[2019-01-05 21:57:54,203] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:57:54,203] [INFO] 你的请求方式是:post
+[2019-01-05 21:57:54,204] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': 'asd', 'amount': 1000}
+[2019-01-05 21:57:54,204] [INFO] 你的预期结果是:11005
+[2019-01-05 21:57:54,204] [INFO] 请求的实际结果是:11009
+[2019-01-05 21:57:54,204] [ERROR] 测试用例开始执行的结果是:Fail
+[2019-01-05 21:57:54,339] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_10结束执行,一共执行0.02868502000000106
+[2019-01-05 21:57:54,341] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_11开始执行
+[2019-01-05 21:57:54,362] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:57:54,362] [INFO] 你的请求方式是:post
+[2019-01-05 21:57:54,362] [INFO] 你的请求参数是:{'memberId': 123456, 'password': '0123456789123456789', 'loanId': '1234', 'amount': 1000}
+[2019-01-05 21:57:54,362] [INFO] 你的预期结果是:11006
+[2019-01-05 21:57:54,362] [INFO] 请求的实际结果是:11006
+[2019-01-05 21:57:54,363] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:57:54,487] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_11结束执行,一共执行0.020561874000000202
+[2019-01-05 21:57:54,488] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_12开始执行
+[2019-01-05 21:57:54,524] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:57:54,524] [INFO] 你的请求方式是:post
+[2019-01-05 21:57:54,524] [INFO] 你的请求参数是:{'memberId': 123456, 'password': '01234', 'loanId': '1234', 'amount': 1000}
+[2019-01-05 21:57:54,524] [INFO] 你的预期结果是:11006
+[2019-01-05 21:57:54,524] [INFO] 请求的实际结果是:11006
+[2019-01-05 21:57:54,524] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:57:54,650] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_12结束执行,一共执行0.035340166000001005
+[2019-01-05 21:57:54,651] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_13开始执行
+[2019-01-05 21:57:54,665] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:57:54,666] [INFO] 你的请求方式是:post
+[2019-01-05 21:57:54,666] [INFO] 你的请求参数是:{'memberId': 123456, 'password': '0123456789', 'loanId': 1234, 'amount': -1}
+[2019-01-05 21:57:54,666] [INFO] 你的预期结果是:11007
+[2019-01-05 21:57:54,666] [INFO] 请求的实际结果是:11007
+[2019-01-05 21:57:54,666] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:57:54,788] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_13结束执行,一共执行0.014153040000000061
+[2019-01-05 21:57:54,789] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_14开始执行
+[2019-01-05 21:57:54,807] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:57:54,807] [INFO] 你的请求方式是:post
+[2019-01-05 21:57:54,807] [INFO] 你的请求参数是:{'memberId': 123456, 'password': '0123456789', 'loanId': 1234, 'amount': 1.31}
+[2019-01-05 21:57:54,807] [INFO] 你的预期结果是:11007
+[2019-01-05 21:57:54,807] [INFO] 请求的实际结果是:11007
+[2019-01-05 21:57:54,807] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:57:54,933] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_14结束执行,一共执行0.017259169000000796
+[2019-01-05 21:57:54,935] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_15开始执行
+[2019-01-05 21:57:54,992] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:57:54,992] [INFO] 你的请求方式是:post
+[2019-01-05 21:57:54,992] [INFO] 你的请求参数是:{'memberId': 1113412, 'password': '0123456789', 'loanId': 1234, 'amount': 1000}
+[2019-01-05 21:57:54,992] [INFO] 你的预期结果是:11008
+[2019-01-05 21:57:54,992] [INFO] 请求的实际结果是:11008
+[2019-01-05 21:57:54,993] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:57:55,118] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_15结束执行,一共执行0.05730530499999986
+[2019-01-05 21:57:55,120] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_16开始执行
+[2019-01-05 21:57:55,511] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:57:55,511] [INFO] 你的请求方式是:post
+[2019-01-05 21:57:55,511] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': 10310, 'amount': 1000}
+[2019-01-05 21:57:55,512] [INFO] 你的预期结果是:11009
+[2019-01-05 21:57:55,512] [INFO] 请求的实际结果是:11009
+[2019-01-05 21:57:55,512] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:57:55,642] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_16结束执行,一共执行0.39124007600000077
+[2019-01-05 21:57:55,643] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_17开始执行
+[2019-01-05 21:57:55,722] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:57:55,723] [INFO] 你的请求方式是:post
+[2019-01-05 21:57:55,723] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': 6134, 'amount': 1000}
+[2019-01-05 21:57:55,723] [INFO] 你的预期结果是:11010
+[2019-01-05 21:57:55,723] [INFO] 请求的实际结果是:11010
+[2019-01-05 21:57:55,723] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:57:55,867] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_17结束执行,一共执行0.07949583499999946
+[2019-01-05 21:57:55,868] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_18开始执行
+[2019-01-05 21:57:55,967] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:57:55,967] [INFO] 你的请求方式是:post
+[2019-01-05 21:57:55,967] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': 6134, 'amount': 1000}
+[2019-01-05 21:57:55,967] [INFO] 你的预期结果是:11011
+[2019-01-05 21:57:55,967] [INFO] 请求的实际结果是:11010
+[2019-01-05 21:57:55,968] [ERROR] 测试用例开始执行的结果是:Fail
+[2019-01-05 21:57:56,091] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_18结束执行,一共执行0.0983051080000017
+[2019-01-05 21:57:56,092] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_19开始执行
+[2019-01-05 21:57:56,121] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:57:56,121] [INFO] 你的请求方式是:post
+[2019-01-05 21:57:56,121] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': 1451, 'amount': 1000}
+[2019-01-05 21:57:56,122] [INFO] 你的预期结果是:11012
+[2019-01-05 21:57:56,122] [INFO] 请求的实际结果是:11009
+[2019-01-05 21:57:56,122] [ERROR] 测试用例开始执行的结果是:Fail
+[2019-01-05 21:57:56,243] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_19结束执行,一共执行0.02910777600000003
+[2019-01-05 21:59:05,112] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_01开始执行
+[2019-01-05 21:59:05,138] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/login
+[2019-01-05 21:59:05,138] [INFO] 你的请求方式是:post
+[2019-01-05 21:59:05,138] [INFO] 你的请求参数是:{'mobilephone': '13550848523', 'pwd': '1234567890'}
+[2019-01-05 21:59:05,138] [INFO] 你的预期结果是:10001
+[2019-01-05 21:59:05,138] [INFO] 请求的实际结果是:10001
+[2019-01-05 21:59:05,139] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:59:05,264] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_01结束执行,一共执行0.025669284999999986
+[2019-01-05 21:59:05,265] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_02开始执行
+[2019-01-05 21:59:05,407] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:59:05,407] [INFO] 你的请求方式是:post
+[2019-01-05 21:59:05,407] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': 4825, 'amount': 100}
+[2019-01-05 21:59:05,407] [INFO] 你的预期结果是:10001
+[2019-01-05 21:59:05,408] [INFO] 请求的实际结果是:10001
+[2019-01-05 21:59:05,408] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:59:05,541] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_02结束执行,一共执行0.14210157299999993
+[2019-01-05 21:59:05,542] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_03开始执行
+[2019-01-05 21:59:05,558] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:59:05,559] [INFO] 你的请求方式是:post
+[2019-01-05 21:59:05,559] [INFO] 你的请求参数是:{'memberId': '', 'password': '0123456789', 'loanId': 1234, 'amount': 1000}
+[2019-01-05 21:59:05,559] [INFO] 你的预期结果是:11003
+[2019-01-05 21:59:05,559] [INFO] 请求的实际结果是:11003
+[2019-01-05 21:59:05,559] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:59:05,692] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_03结束执行,一共执行0.016268002999999975
+[2019-01-05 21:59:05,694] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_04开始执行
+[2019-01-05 21:59:05,710] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:59:05,710] [INFO] 你的请求方式是:post
+[2019-01-05 21:59:05,710] [INFO] 你的请求参数是:{'memberId': 123456, 'password': '', 'loanId': 1234, 'amount': 1000}
+[2019-01-05 21:59:05,710] [INFO] 你的预期结果是:11003
+[2019-01-05 21:59:05,711] [INFO] 请求的实际结果是:11003
+[2019-01-05 21:59:05,711] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:59:05,844] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_04结束执行,一共执行0.01590722000000011
+[2019-01-05 21:59:05,845] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_05开始执行
+[2019-01-05 21:59:05,859] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:59:05,860] [INFO] 你的请求方式是:post
+[2019-01-05 21:59:05,860] [INFO] 你的请求参数是:{'memberId': 123456, 'password': '0123456789', 'loanId': '', 'amount': 1000}
+[2019-01-05 21:59:05,860] [INFO] 你的预期结果是:11003
+[2019-01-05 21:59:05,860] [INFO] 请求的实际结果是:11003
+[2019-01-05 21:59:05,860] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:59:05,990] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_05结束执行,一共执行0.014206722999999588
+[2019-01-05 21:59:05,991] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_06开始执行
+[2019-01-05 21:59:06,014] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:59:06,014] [INFO] 你的请求方式是:post
+[2019-01-05 21:59:06,014] [INFO] 你的请求参数是:{'memberId': 123456, 'password': '0123456789', 'loanId': 1234, 'amount': ''}
+[2019-01-05 21:59:06,014] [INFO] 你的预期结果是:11003
+[2019-01-05 21:59:06,014] [INFO] 请求的实际结果是:11003
+[2019-01-05 21:59:06,014] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:59:06,144] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_06结束执行,一共执行0.0226784160000002
+[2019-01-05 21:59:06,145] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_07开始执行
+[2019-01-05 21:59:06,163] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:59:06,163] [INFO] 你的请求方式是:post
+[2019-01-05 21:59:06,163] [INFO] 你的请求参数是:{'memberId': -1, 'password': '0123456789', 'loanId': '1234', 'amount': 1000}
+[2019-01-05 21:59:06,163] [INFO] 你的预期结果是:11004
+[2019-01-05 21:59:06,163] [INFO] 请求的实际结果是:11004
+[2019-01-05 21:59:06,163] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:59:06,310] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_07结束执行,一共执行0.017128513999999928
+[2019-01-05 21:59:06,311] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_08开始执行
+[2019-01-05 21:59:06,337] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:59:06,337] [INFO] 你的请求方式是:post
+[2019-01-05 21:59:06,337] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': -1, 'amount': 1000}
+[2019-01-05 21:59:06,337] [INFO] 你的预期结果是:11005
+[2019-01-05 21:59:06,337] [INFO] 请求的实际结果是:11009
+[2019-01-05 21:59:06,338] [ERROR] 测试用例开始执行的结果是:Fail
+[2019-01-05 21:59:06,473] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_08结束执行,一共执行0.025550470000000214
+[2019-01-05 21:59:06,475] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_09开始执行
+[2019-01-05 21:59:06,496] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:59:06,497] [INFO] 你的请求方式是:post
+[2019-01-05 21:59:06,497] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': 11.2, 'amount': 1000}
+[2019-01-05 21:59:06,497] [INFO] 你的预期结果是:11005
+[2019-01-05 21:59:06,497] [INFO] 请求的实际结果是:11009
+[2019-01-05 21:59:06,497] [ERROR] 测试用例开始执行的结果是:Fail
+[2019-01-05 21:59:06,626] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_09结束执行,一共执行0.021050944000000182
+[2019-01-05 21:59:06,628] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_10开始执行
+[2019-01-05 21:59:06,654] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:59:06,654] [INFO] 你的请求方式是:post
+[2019-01-05 21:59:06,655] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': 'asd', 'amount': 1000}
+[2019-01-05 21:59:06,655] [INFO] 你的预期结果是:11005
+[2019-01-05 21:59:06,655] [INFO] 请求的实际结果是:11009
+[2019-01-05 21:59:06,655] [ERROR] 测试用例开始执行的结果是:Fail
+[2019-01-05 21:59:06,817] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_10结束执行,一共执行0.02642045500000023
+[2019-01-05 21:59:06,818] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_11开始执行
+[2019-01-05 21:59:06,846] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:59:06,846] [INFO] 你的请求方式是:post
+[2019-01-05 21:59:06,846] [INFO] 你的请求参数是:{'memberId': 123456, 'password': '0123456789123456789', 'loanId': '1234', 'amount': 1000}
+[2019-01-05 21:59:06,847] [INFO] 你的预期结果是:11006
+[2019-01-05 21:59:06,847] [INFO] 请求的实际结果是:11006
+[2019-01-05 21:59:06,847] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:59:06,984] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_11结束执行,一共执行0.02747872600000001
+[2019-01-05 21:59:06,985] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_12开始执行
+[2019-01-05 21:59:07,006] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:59:07,006] [INFO] 你的请求方式是:post
+[2019-01-05 21:59:07,006] [INFO] 你的请求参数是:{'memberId': 123456, 'password': '01234', 'loanId': '1234', 'amount': 1000}
+[2019-01-05 21:59:07,006] [INFO] 你的预期结果是:11006
+[2019-01-05 21:59:07,006] [INFO] 请求的实际结果是:11006
+[2019-01-05 21:59:07,006] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:59:07,136] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_12结束执行,一共执行0.02019122299999987
+[2019-01-05 21:59:07,137] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_13开始执行
+[2019-01-05 21:59:07,160] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:59:07,160] [INFO] 你的请求方式是:post
+[2019-01-05 21:59:07,160] [INFO] 你的请求参数是:{'memberId': 123456, 'password': '0123456789', 'loanId': 1234, 'amount': -1}
+[2019-01-05 21:59:07,160] [INFO] 你的预期结果是:11007
+[2019-01-05 21:59:07,160] [INFO] 请求的实际结果是:11007
+[2019-01-05 21:59:07,160] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:59:07,287] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_13结束执行,一共执行0.02246762999999996
+[2019-01-05 21:59:07,288] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_14开始执行
+[2019-01-05 21:59:07,309] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:59:07,310] [INFO] 你的请求方式是:post
+[2019-01-05 21:59:07,310] [INFO] 你的请求参数是:{'memberId': 123456, 'password': '0123456789', 'loanId': 1234, 'amount': 1.31}
+[2019-01-05 21:59:07,310] [INFO] 你的预期结果是:11007
+[2019-01-05 21:59:07,310] [INFO] 请求的实际结果是:11007
+[2019-01-05 21:59:07,310] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:59:07,439] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_14结束执行,一共执行0.020917525999999853
+[2019-01-05 21:59:07,440] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_15开始执行
+[2019-01-05 21:59:07,490] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:59:07,490] [INFO] 你的请求方式是:post
+[2019-01-05 21:59:07,491] [INFO] 你的请求参数是:{'memberId': 1113414, 'password': '0123456789', 'loanId': 1234, 'amount': 1000}
+[2019-01-05 21:59:07,491] [INFO] 你的预期结果是:11008
+[2019-01-05 21:59:07,491] [INFO] 请求的实际结果是:11008
+[2019-01-05 21:59:07,491] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:59:07,623] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_15结束执行,一共执行0.049808990999999914
+[2019-01-05 21:59:07,624] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_16开始执行
+[2019-01-05 21:59:08,042] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:59:08,042] [INFO] 你的请求方式是:post
+[2019-01-05 21:59:08,042] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': 10314, 'amount': 1000}
+[2019-01-05 21:59:08,043] [INFO] 你的预期结果是:11009
+[2019-01-05 21:59:08,043] [INFO] 请求的实际结果是:11009
+[2019-01-05 21:59:08,043] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:59:08,164] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_16结束执行,一共执行0.41806039199999967
+[2019-01-05 21:59:08,165] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_17开始执行
+[2019-01-05 21:59:08,239] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:59:08,240] [INFO] 你的请求方式是:post
+[2019-01-05 21:59:08,240] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': 6134, 'amount': 1000}
+[2019-01-05 21:59:08,240] [INFO] 你的预期结果是:11010
+[2019-01-05 21:59:08,240] [INFO] 请求的实际结果是:11010
+[2019-01-05 21:59:08,240] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 21:59:08,364] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_17结束执行,一共执行0.0740931680000001
+[2019-01-05 21:59:08,365] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_18开始执行
+[2019-01-05 21:59:08,441] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:59:08,442] [INFO] 你的请求方式是:post
+[2019-01-05 21:59:08,442] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': 6134, 'amount': 1000}
+[2019-01-05 21:59:08,442] [INFO] 你的预期结果是:11011
+[2019-01-05 21:59:08,442] [INFO] 请求的实际结果是:11010
+[2019-01-05 21:59:08,442] [ERROR] 测试用例开始执行的结果是:Fail
+[2019-01-05 21:59:08,566] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_18结束执行,一共执行0.07615523599999996
+[2019-01-05 21:59:08,568] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_19开始执行
+[2019-01-05 21:59:08,591] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 21:59:08,591] [INFO] 你的请求方式是:post
+[2019-01-05 21:59:08,591] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': 1451, 'amount': 1000}
+[2019-01-05 21:59:08,591] [INFO] 你的预期结果是:11012
+[2019-01-05 21:59:08,592] [INFO] 请求的实际结果是:11009
+[2019-01-05 21:59:08,592] [ERROR] 测试用例开始执行的结果是:Fail
+[2019-01-05 21:59:08,724] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_19结束执行,一共执行0.023189984999999247
+[2019-01-05 22:31:03,780] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_01开始执行
+[2019-01-05 22:31:03,810] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/login
+[2019-01-05 22:31:03,810] [INFO] 你的请求方式是:post
+[2019-01-05 22:31:03,810] [INFO] 你的请求参数是:{'mobilephone': '13550848523', 'pwd': '1234567890'}
+[2019-01-05 22:31:03,810] [INFO] 你的预期结果是:10001
+[2019-01-05 22:31:03,811] [INFO] 请求的实际结果是:10001
+[2019-01-05 22:31:03,811] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 22:31:03,953] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_01结束执行,一共执行0.029716450000000005
+[2019-01-05 22:31:03,954] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_02开始执行
+[2019-01-05 22:31:04,111] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 22:31:04,111] [INFO] 你的请求方式是:post
+[2019-01-05 22:31:04,111] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': 4825, 'amount': 100}
+[2019-01-05 22:31:04,111] [INFO] 你的预期结果是:10001
+[2019-01-05 22:31:04,111] [INFO] 请求的实际结果是:10001
+[2019-01-05 22:31:04,111] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 22:31:04,247] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_02结束执行,一共执行0.15618553499999988
+[2019-01-05 22:31:04,249] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_03开始执行
+[2019-01-05 22:31:04,270] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 22:31:04,270] [INFO] 你的请求方式是:post
+[2019-01-05 22:31:04,271] [INFO] 你的请求参数是:{'memberId': '', 'password': '0123456789', 'loanId': 1234, 'amount': 1000}
+[2019-01-05 22:31:04,271] [INFO] 你的预期结果是:11003
+[2019-01-05 22:31:04,271] [INFO] 请求的实际结果是:11003
+[2019-01-05 22:31:04,271] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 22:31:04,404] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_03结束执行,一共执行0.021584225000000012
+[2019-01-05 22:31:04,405] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_04开始执行
+[2019-01-05 22:31:04,426] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 22:31:04,426] [INFO] 你的请求方式是:post
+[2019-01-05 22:31:04,427] [INFO] 你的请求参数是:{'memberId': 123456, 'password': '', 'loanId': 1234, 'amount': 1000}
+[2019-01-05 22:31:04,427] [INFO] 你的预期结果是:11003
+[2019-01-05 22:31:04,427] [INFO] 请求的实际结果是:11003
+[2019-01-05 22:31:04,427] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 22:31:04,559] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_04结束执行,一共执行0.020629372999999784
+[2019-01-05 22:31:04,561] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_05开始执行
+[2019-01-05 22:31:04,590] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 22:31:04,590] [INFO] 你的请求方式是:post
+[2019-01-05 22:31:04,590] [INFO] 你的请求参数是:{'memberId': 123456, 'password': '0123456789', 'loanId': '', 'amount': 1000}
+[2019-01-05 22:31:04,590] [INFO] 你的预期结果是:11003
+[2019-01-05 22:31:04,590] [INFO] 请求的实际结果是:11003
+[2019-01-05 22:31:04,590] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 22:31:04,727] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_05结束执行,一共执行0.028654230999999974
+[2019-01-05 22:31:04,728] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_06开始执行
+[2019-01-05 22:31:04,745] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 22:31:04,745] [INFO] 你的请求方式是:post
+[2019-01-05 22:31:04,745] [INFO] 你的请求参数是:{'memberId': 123456, 'password': '0123456789', 'loanId': 1234, 'amount': ''}
+[2019-01-05 22:31:04,745] [INFO] 你的预期结果是:11003
+[2019-01-05 22:31:04,745] [INFO] 请求的实际结果是:11003
+[2019-01-05 22:31:04,746] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 22:31:04,906] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_06结束执行,一共执行0.016261686999999636
+[2019-01-05 22:31:04,908] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_07开始执行
+[2019-01-05 22:31:04,930] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 22:31:04,930] [INFO] 你的请求方式是:post
+[2019-01-05 22:31:04,930] [INFO] 你的请求参数是:{'memberId': -1, 'password': '0123456789', 'loanId': '1234', 'amount': 1000}
+[2019-01-05 22:31:04,930] [INFO] 你的预期结果是:11004
+[2019-01-05 22:31:04,930] [INFO] 请求的实际结果是:11004
+[2019-01-05 22:31:04,931] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 22:31:05,103] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_07结束执行,一共执行0.02128265099999993
+[2019-01-05 22:31:05,104] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_08开始执行
+[2019-01-05 22:31:05,127] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 22:31:05,127] [INFO] 你的请求方式是:post
+[2019-01-05 22:31:05,127] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': -1, 'amount': 1000}
+[2019-01-05 22:31:05,127] [INFO] 你的预期结果是:11005
+[2019-01-05 22:31:05,127] [INFO] 请求的实际结果是:11009
+[2019-01-05 22:31:05,127] [ERROR] 测试用例开始执行的结果是:Fail
+[2019-01-05 22:31:05,343] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_08结束执行,一共执行0.022039742999999667
+[2019-01-05 22:31:05,347] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_09开始执行
+[2019-01-05 22:31:05,371] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 22:31:05,371] [INFO] 你的请求方式是:post
+[2019-01-05 22:31:05,371] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': 11.2, 'amount': 1000}
+[2019-01-05 22:31:05,372] [INFO] 你的预期结果是:11005
+[2019-01-05 22:31:05,372] [INFO] 请求的实际结果是:11009
+[2019-01-05 22:31:05,372] [ERROR] 测试用例开始执行的结果是:Fail
+[2019-01-05 22:31:05,574] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_09结束执行,一共执行0.023714186999999942
+[2019-01-05 22:31:05,576] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_10开始执行
+[2019-01-05 22:31:05,596] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 22:31:05,596] [INFO] 你的请求方式是:post
+[2019-01-05 22:31:05,596] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': 'asd', 'amount': 1000}
+[2019-01-05 22:31:05,596] [INFO] 你的预期结果是:11005
+[2019-01-05 22:31:05,597] [INFO] 请求的实际结果是:11009
+[2019-01-05 22:31:05,597] [ERROR] 测试用例开始执行的结果是:Fail
+[2019-01-05 22:31:05,819] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_10结束执行,一共执行0.019464525000000066
+[2019-01-05 22:31:05,821] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_11开始执行
+[2019-01-05 22:31:05,848] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 22:31:05,848] [INFO] 你的请求方式是:post
+[2019-01-05 22:31:05,848] [INFO] 你的请求参数是:{'memberId': 123456, 'password': '0123456789123456789', 'loanId': '1234', 'amount': 1000}
+[2019-01-05 22:31:05,849] [INFO] 你的预期结果是:11006
+[2019-01-05 22:31:05,849] [INFO] 请求的实际结果是:11006
+[2019-01-05 22:31:05,849] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 22:31:06,007] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_11结束执行,一共执行0.026726765999999902
+[2019-01-05 22:31:06,009] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_12开始执行
+[2019-01-05 22:31:06,027] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 22:31:06,027] [INFO] 你的请求方式是:post
+[2019-01-05 22:31:06,027] [INFO] 你的请求参数是:{'memberId': 123456, 'password': '01234', 'loanId': '1234', 'amount': 1000}
+[2019-01-05 22:31:06,027] [INFO] 你的预期结果是:11006
+[2019-01-05 22:31:06,027] [INFO] 请求的实际结果是:11006
+[2019-01-05 22:31:06,028] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 22:31:06,161] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_12结束执行,一共执行0.018033630000000134
+[2019-01-05 22:31:06,163] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_13开始执行
+[2019-01-05 22:31:06,179] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 22:31:06,179] [INFO] 你的请求方式是:post
+[2019-01-05 22:31:06,179] [INFO] 你的请求参数是:{'memberId': 123456, 'password': '0123456789', 'loanId': 1234, 'amount': -1}
+[2019-01-05 22:31:06,180] [INFO] 你的预期结果是:11007
+[2019-01-05 22:31:06,180] [INFO] 请求的实际结果是:11007
+[2019-01-05 22:31:06,180] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 22:31:06,325] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_13结束执行,一共执行0.016386422000000067
+[2019-01-05 22:31:06,326] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_14开始执行
+[2019-01-05 22:31:06,346] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 22:31:06,346] [INFO] 你的请求方式是:post
+[2019-01-05 22:31:06,346] [INFO] 你的请求参数是:{'memberId': 123456, 'password': '0123456789', 'loanId': 1234, 'amount': 1.31}
+[2019-01-05 22:31:06,346] [INFO] 你的预期结果是:11007
+[2019-01-05 22:31:06,347] [INFO] 请求的实际结果是:11007
+[2019-01-05 22:31:06,347] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 22:31:06,484] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_14结束执行,一共执行0.019586891999999523
+[2019-01-05 22:31:06,485] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_15开始执行
+[2019-01-05 22:31:06,536] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 22:31:06,536] [INFO] 你的请求方式是:post
+[2019-01-05 22:31:06,537] [INFO] 你的请求参数是:{'memberId': 1113419, 'password': '0123456789', 'loanId': 1234, 'amount': 1000}
+[2019-01-05 22:31:06,537] [INFO] 你的预期结果是:11008
+[2019-01-05 22:31:06,537] [INFO] 请求的实际结果是:11008
+[2019-01-05 22:31:06,537] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 22:31:06,684] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_15结束执行,一共执行0.05080844599999956
+[2019-01-05 22:31:06,685] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_16开始执行
+[2019-01-05 22:31:07,224] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 22:31:07,224] [INFO] 你的请求方式是:post
+[2019-01-05 22:31:07,224] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': 10341, 'amount': 1000}
+[2019-01-05 22:31:07,224] [INFO] 你的预期结果是:11009
+[2019-01-05 22:31:07,224] [INFO] 请求的实际结果是:11009
+[2019-01-05 22:31:07,225] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 22:31:07,388] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_16结束执行,一共执行0.5388765520000005
+[2019-01-05 22:31:07,390] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_17开始执行
+[2019-01-05 22:31:07,510] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 22:31:07,511] [INFO] 你的请求方式是:post
+[2019-01-05 22:31:07,511] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': 6134, 'amount': 1000}
+[2019-01-05 22:31:07,511] [INFO] 你的预期结果是:11010
+[2019-01-05 22:31:07,511] [INFO] 请求的实际结果是:11010
+[2019-01-05 22:31:07,511] [INFO] 测试用例开始执行的结果是:Pass
+[2019-01-05 22:31:07,674] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_17结束执行,一共执行0.12035471999999992
+[2019-01-05 22:31:07,675] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_18开始执行
+[2019-01-05 22:31:07,751] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 22:31:07,751] [INFO] 你的请求方式是:post
+[2019-01-05 22:31:07,751] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': 6134, 'amount': 1000}
+[2019-01-05 22:31:07,751] [INFO] 你的预期结果是:11011
+[2019-01-05 22:31:07,751] [INFO] 请求的实际结果是:11010
+[2019-01-05 22:31:07,752] [ERROR] 测试用例开始执行的结果是:Fail
+[2019-01-05 22:31:07,908] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_18结束执行,一共执行0.07548774800000047
+[2019-01-05 22:31:07,910] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_19开始执行
+[2019-01-05 22:31:07,947] [INFO] 你请求的URL地址是:http://test.lemonban.com/futureloan/mvc/api/member/bidLoan
+[2019-01-05 22:31:07,947] [INFO] 你的请求方式是:post
+[2019-01-05 22:31:07,948] [INFO] 你的请求参数是:{'memberId': 1112952, 'password': '1234567890', 'loanId': 1451, 'amount': 1000}
+[2019-01-05 22:31:07,948] [INFO] 你的预期结果是:11012
+[2019-01-05 22:31:07,948] [INFO] 请求的实际结果是:11009
+[2019-01-05 22:31:07,948] [ERROR] 测试用例开始执行的结果是:Fail
+[2019-01-05 22:31:08,107] [INFO] 测试用例test_bidloan.Http_test_test_5bidloan_19结束执行,一共执行0.03700118899999971
