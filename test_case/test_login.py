@@ -1,5 +1,5 @@
 from comm.http_request import Http_request
-import unittest,requests
+import unittest
 from ddt import ddt,unpack,data
 from comm.DO_excel import Do_excel
 from comm.log_decorator import log_decorator
